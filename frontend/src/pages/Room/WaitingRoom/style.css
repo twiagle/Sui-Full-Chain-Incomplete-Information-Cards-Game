@@ -1,0 +1,8 @@
+.waitingroom {
+  background-image: url('../../../../res/room_bg.jpg');
+  /* background-size: 1000px 1000px; */
+  top: 0;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}

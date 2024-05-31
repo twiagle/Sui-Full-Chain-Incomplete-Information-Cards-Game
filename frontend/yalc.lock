@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "ddz_crypto_sdk": {
+      "signature": "a77a4f19f650976001781e80a4967729",
+      "file": true
+    }
+  }
+}

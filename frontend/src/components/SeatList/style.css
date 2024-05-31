@@ -1,0 +1,8 @@
+.seat-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.seat-info {
+  display: flex;
+  align-items: center;
+}

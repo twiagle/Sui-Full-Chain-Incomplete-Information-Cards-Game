@@ -1,0 +1,44 @@
+.home-page-component {
+  background-image: url('../../../res/di1.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+.lan-button {
+  background-image: url('../../../res/btn_lan2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.lv-button {
+  background-image: url('../../../res/btn_lv2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.title {
+  /* margin-top: 80px; */
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}

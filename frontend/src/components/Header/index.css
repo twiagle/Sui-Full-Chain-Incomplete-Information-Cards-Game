@@ -1,0 +1,13 @@
+.header {
+    height: 50px;
+    width: 100%;
+}
+
+.hit {
+    color: red
+}
+
+.wallet {
+    position: absolute;
+    right: 50px;
+}

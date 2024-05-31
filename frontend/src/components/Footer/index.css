@@ -1,0 +1,14 @@
+.Footer {
+    background: #fafafa;
+    color: #888;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.beian {
+    cursor: pointer
+}

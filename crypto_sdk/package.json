@@ -1,0 +1,37 @@
+{
+  "name": "ddz_crypto_sdk",
+  "version": "0.0.20",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist.esm/index.js",
+  "types": "src/index.ts",
+  "publishConfig": {
+    "types": "dist/index.d.ts"
+  },
+  "scripts": {
+    "buildtest": "webpack --mode development",
+    "prepublish": "yarn build",
+    "build": "yarn run build:esm",
+    "clear": "rm -rf ./dist.esm/",
+    "build:esm": "tsc -p tsconfig.build.esm.json"
+  },
+  "dependencies": {
+    "@types/circomlibjs": "^0.1.6",
+    "@types/ws": "^8.5.10",
+    "axios": "^1.6.7",
+    "circomlibjs-0-1-7": "npm:circomlibjs@^0.1.7",
+    "ffjavascript": "^0.2.57",
+    "node-polyfill-webpack-plugin": "^3.0.0",
+    "snarkjs": "^0.7.0",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4",
+    "ws": "^8.17.0"
+  },
+  "files": [
+    "src",
+    "dist",
+    "dist.esm"
+  ]
+}
